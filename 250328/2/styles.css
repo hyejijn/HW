@@ -6,7 +6,7 @@
 }
 
 body{
-    background:url(bg.jpg) ;
+    background:url("bg.jpg") ;
     background-size: cover;
     /* background-position: center; */
 
@@ -22,12 +22,11 @@ body{
     backdrop-filter: blur(40px);
     border-right: 2px solid rgba(255, 255, 255, .2);
     box-sizing: 0 0 10px rgba(0, 0, 0, .2);
-    ;
     padding: 6px 14px;
     transition: .5s;
 }
 
-.sldebar.active{
+.active{
     width: 260px;
 }
 
@@ -40,7 +39,7 @@ body{
 
 .sidebar .logo-menu .logo{
     font-size: 25px;
-    /* color: #fff; */
+    color: #fff;
     pointer-events: none;
     opacity: 0;
     transition: .3s
@@ -115,7 +114,7 @@ body{
     transition: opacity .3s;
 }
 
-.sidebar .avtive .link-name{
+.sidebar.avtive .link-name{
     opacity: 1;
     pointer-events: auto;
     transition-delay: calc(.1s * var(--i));
