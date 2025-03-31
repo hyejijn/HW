@@ -37,7 +37,7 @@ body{
     height: 70px;
 }
 
-.sidebar .logo-menu .logo{
+.logo{
     font-size: 25px;
     color: #fff;
     pointer-events: none;
@@ -51,7 +51,7 @@ body{
     transition-delay: .2s;
 }
 
-.sldebar .logo-menu .toggle-btn{
+.sidebar .logo-menu .toggle-btn{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -114,7 +114,7 @@ body{
     transition: opacity .3s;
 }
 
-.sidebar.avtive .link-name{
+.sidebar.active .link-name{
     opacity: 1;
     pointer-events: auto;
     transition-delay: calc(.1s * var(--i));
